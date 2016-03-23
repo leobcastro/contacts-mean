@@ -1,0 +1,27 @@
+{
+  "name": "contact",
+  "description": "Learning MEAN.",
+  "main": "index.js",
+  "authors": [
+    "Leonardo Castro"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "mean",
+    "contacts",
+    "crud",
+    "node",
+    "npm",
+    "mongo",
+    "express"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

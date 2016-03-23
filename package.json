@@ -1,0 +1,35 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "Learning MEAN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leobcastro/contacts-mean.git"
+  },
+  "keywords": [
+    "mean",
+    "contacts",
+    "crud",
+    "node",
+    "npm",
+    "mongo",
+    "express"
+  ],
+  "author": "Leonardo Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leobcastro/contacts-mean/issues"
+  },
+  "homepage": "https://github.com/leobcastro/contacts-mean#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-load": "^1.1.15",
+    "method-override": "^2.3.5"
+  }
+}
