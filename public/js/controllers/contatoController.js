@@ -1,4 +1,4 @@
-angular.module('contact').controller('contatoController', function($scope,Contato,$routeParams) {
+angular.module('contact').controller('contatoController', function(Contato,$scope,$routeParams) { 
 
 	if($routeParams.contatoId) {
 		Contato.get({id: $routeParams.contatoId}, 
@@ -31,4 +31,5 @@ angular.module('contact').controller('contatoController', function($scope,Contat
 	Contato.query(function(contatos) {
 		$scope.contatos = contatos;
 	});	
+	
 });
