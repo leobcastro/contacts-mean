@@ -8,8 +8,12 @@ angular.module('contact').config(function($routeProvider) {
 	})
 	.when('/contato/:contatoId', {
 		templateUrl: 'partials/contato.html',
-		controller: 'contatosController'
+		controller: 'contatoController'
 	})
+	.when('/contato', {
+      templateUrl: 'partials/contato.html',
+      controller: 'contatoController'
+    });
 	.otherwise({redirectTo: '/contatos'});
 
 });
